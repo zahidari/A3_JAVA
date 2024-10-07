@@ -5,7 +5,7 @@ public class Zahl {
 
     public int  summe;
     private int comSumme;
-    private int[] karten;
+    private final int[]karten;
 
     public Zahl(){
         summe = 0;
